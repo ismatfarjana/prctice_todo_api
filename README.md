@@ -2,12 +2,12 @@
 
 #### In Insomnia or Postman use these url's for different purpose:
 
-## todo list: `https://practice-with-todo-api.herokuapp.com/`
+##### todo list: `https://practice-with-todo-api.herokuapp.com/`
 
-## get one item: `https://practice-with-todo-api.herokuapp.com/:id`
+##### get one item: `https://practice-with-todo-api.herokuapp.com/:id`
 
-## add item: `https://practice-with-todo-api.herokuapp.com/addNewTodo/`
+##### add item: `https://practice-with-todo-api.herokuapp.com/addNewTodo/`
 
-## update item: `https://practice-with-todo-api.herokuapp.com/:id/update`
+##### update item: `https://practice-with-todo-api.herokuapp.com/:id/update`
 
-## delete item: `https://practice-with-todo-api.herokuapp.com/:id/delete`
+##### delete item: `https://practice-with-todo-api.herokuapp.com/:id/delete`
