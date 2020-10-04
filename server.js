@@ -9,7 +9,8 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-const uri = process.env.ATLAS_URI;
+const uri = process.env.NODE_ENV === "test" ? process.env.ATLAS_TEST_URI : process.env.ATLAS_URI;
+
 mongoose
   .connect(uri, {
     useNewUrlParser: true,
@@ -30,3 +31,5 @@ app.use("/", todosRouter);
 app.listen(port, () => {
   console.log(`Congrates! express is listening on port ${port}!`);
 });
+
+module.exports = app; // for testing
